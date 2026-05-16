@@ -1,11 +1,12 @@
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
-function KitchenSinkExample(props) {
+
+function Destination_card1(props) {
   return (
-   <div className='w-100'>
-     <Card className="rounded shadow-lg w-100">
-      <Card.Img variant="top" src={props.data.img} />
+   <div className=' d-flex justify-content-center align-items-center mt-5 mx-auto gap-3'>
+     <Card className="rounded shadow-lg " >
+      <Card.Img variant="top" src={props.data.img}/>
       <Card.Body>
         <Card.Title>{props.data.Name}</Card.Title>
         <Card.Text>
@@ -17,14 +18,15 @@ function KitchenSinkExample(props) {
         <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
         <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
       </ListGroup>
-      <Card.Body className='d-flex justify-content-center align-items-center gap-2 bg-color-primary'>
-        <button>Explore Tours</button>
-        <i className="fa-solid fa-arrow-right"></i>
+      <Card.Body className='d-flex justify-content-center align-items-center'>
+        <button className='rounded-2 bg-primary text-white border-0 w-50 h-15'>Explore Tours
+          <i className="fa-solid fa-arrow-right"></i>
+        </button>
+        
       </Card.Body>
     </Card>
    </div>
 
   );
 }
-
-export default KitchenSinkExample;
+export default Destination_card1;
