@@ -14,12 +14,15 @@ function Destination_card1(props) {
         </Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
-        <ListGroup.Item>Cras justo odio</ListGroup.Item>
+        <ListGroup.Item>
+          <i class="fa-thin fa-location-dot"></i>
+          {props.data.Tours}
+        </ListGroup.Item>
         <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
         <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
       </ListGroup>
       <Card.Body className='d-flex justify-content-center align-items-center'>
-        <button className='rounded-2 bg-primary text-white border-0 w-50 h-15'>Explore Tours
+        <button className='rounded-2 bg-primary text-white border-0 w-50 h-20 '>Explore Tours
           <i className="fa-solid fa-arrow-right"></i>
         </button>
         
