@@ -23,7 +23,7 @@ function Featured() {
         <div className="row">
             {
                 data.map((item)=>(
-                    <div className="col-lg-4 col-md-6  col-12 mt-2" key={item.id}>
+                    <div className="container1 d-flex justify-content-center gap-5 mt-1 flex-wrap" key={item.id}>
                         <Fe data={item}/>
                     </div>
             ))

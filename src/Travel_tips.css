@@ -1,0 +1,20 @@
+.card_title{
+    border: 2px solid;
+    margin-top: 90px;
+    padding-top: 10px;
+    text-align: center;
+}
+.travel_heading{
+    border: 2px none;
+    margin-top: 70px;
+    text-align: center;
+}
+#card_travel{
+    transition: transform 0.5s ease;
+    width: 280px;
+    height: 180px;
+    padding-top: 35px;
+}
+#card_travel:hover{
+    transform: scale(1.05);
+}

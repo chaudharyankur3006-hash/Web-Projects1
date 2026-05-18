@@ -10,7 +10,7 @@ function Service1(props) {
         variant="top"
         src={data.img}
         className="img-fluid"
-        style={{ height: '200px', width:'450px', objectFit: 'cover' }}
+        style={{ height: '200px', width:'500px', objectFit: 'cover' }}
       />
       <Card.Body id='card_service'>
         <Card.Title>{data.name}</Card.Title>

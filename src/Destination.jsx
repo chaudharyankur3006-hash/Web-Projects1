@@ -1,6 +1,6 @@
 import React from 'react'
 import './Destination.css'
-import Search_filter from './Search_filter'
+import Search_filter_destination from './Search_filter_destination'
 
 const Destination = () => {
   return (
@@ -9,7 +9,7 @@ const Destination = () => {
         <h1 className='text-white'>Explore Destinations</h1>
         <h6 className='text-white'>Discover amazing places around the world</h6>
       </div>    
-      <Search_filter/>
+      <Search_filter_destination/>
     </div>
   )
 }

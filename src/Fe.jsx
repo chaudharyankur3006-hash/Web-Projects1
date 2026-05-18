@@ -5,7 +5,7 @@ import "./Featured.css";
 function Fe(props) {
   return (
     <div>
-      <Card className="rounded shadow-lg w-100">
+      <Card className="rounded shadow-lg pl-5" style={{ width: "350px", height: "450px" }}>
         <Card.Img variant="top" src={props.data.img} />
         <Card.Body>
           <Card.Title className="d-flex justify-content-between align-items-center">

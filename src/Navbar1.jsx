@@ -16,6 +16,7 @@ function Navbar1() {
           <Nav className="mx-auto nav1">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/destination">Destination</Nav.Link>
+            <Nav.Link href="/tour-packages">Tour Packages</Nav.Link>
             <Nav.Link href="#gallery">Gallery</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
