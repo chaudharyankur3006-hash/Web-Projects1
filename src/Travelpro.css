@@ -11,7 +11,7 @@
 }
 #card_travel{
     transition: transform 0.5s ease;
-    width: 280px;
+    width: 320px;
     height: 180px;
     padding-top: 35px;
 }

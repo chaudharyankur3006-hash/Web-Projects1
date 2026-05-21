@@ -7,7 +7,7 @@ import img4 from "./assets/kumbhalgarh_udaypur.webp"
 import Popular_regions1 from './Popular_regions1'
 import Travel_tips from './Travel_tips';
 
-function BasicExample() {
+function Popular_regions() {
     const data = [
         {id:1,Name:"Red fort",img: img1},
         {id:2,Name:"main gate of india",img: img2},
@@ -32,4 +32,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Popular_regions;

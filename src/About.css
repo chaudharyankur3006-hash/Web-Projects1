@@ -1,0 +1,8 @@
+.About{
+    background-image: url(./assets/Travel_gallary_main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    text-shadow: 2px 2px 4px #000000;
+}

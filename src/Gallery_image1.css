@@ -1,0 +1,21 @@
+#b1{
+    width:100px;
+    height:40px;
+    border-radius:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px inset black;
+    color: black;
+}
+#b1:hover{
+    background-color: rgb(0, 98, 117);
+    color:white;
+}
+#img{
+    width: 300px;
+    height: 300px;
+    border: 2px none;
+    border-radius: 10px;
+}

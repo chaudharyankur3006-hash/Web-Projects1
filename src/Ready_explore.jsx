@@ -1,18 +1,25 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Footer from "./Footer";
+import './Ready_explore.css'
 
 function Ready_explore() {
   return (
-    <div>
+    <div id='btn'>
       
-      <Card className="text-center pt-5 pb-5 bg-info border-0 rounded-0">
+      <Card className="text-center pt-5  border-0 rounded-0 " >
         
         <Card.Body>
-          <Card.Title>Ready to Explore?</Card.Title>
+          <Card.Title>
+            <h3>
+              Ready to Explore?
+            </h3>
+            </Card.Title>
 
           <Card.Text>
-            Start planning your dream destination today
+            <h4>
+              Start planning your dream destination today
+            </h4>
           </Card.Text>
 
           <Button className='bg-white text-info'>

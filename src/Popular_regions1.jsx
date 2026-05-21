@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 
-function BasicExample(props) {
+function Popular_regions1(props) {
   return (
     <div>
       <Card className="text-white border-0 overflow-hidden shadow-sm rounded-4 mx-auto rounded shadow-lg gap-3" style={{ width: '18rem', height: '250px' }}>
@@ -19,4 +19,4 @@ function BasicExample(props) {
   );
 }
 
-export default BasicExample;
+export default Popular_regions1;

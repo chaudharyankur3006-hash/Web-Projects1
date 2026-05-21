@@ -1,9 +1,9 @@
 import React from 'react'
 import Home from './Home'
 import Navbar1 from './Navbar1'
-import tour_packages from './Tour_packages'
+import Tour_packages from './Tour_packages'
 import About from './About'
-
+import Gallery from './Gallery'
 import Destination from './Destination'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
@@ -14,7 +14,8 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/tour-packages' element={<tour_packages />} />
+        <Route path='/gallery' element={<Gallery />} />
+        <Route path='/tour-packages' element={<Tour_packages />} />
         <Route path='/destination' element={<Destination />} />
       </Routes>
     </Router>
