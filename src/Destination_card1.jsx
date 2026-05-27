@@ -3,7 +3,8 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 function Destination_card1(props) {
   return (
-    <Card className="mb-3  shadow-lg" style={{ width: '22rem'}}>
+    <div>
+      <Card className=" mb-3  shadow-lg border border-1" style={{ width: '22rem'}}>
       <Card.Img variant="top" src={props.data.img} />
       <div>
         <Card.Body>
@@ -31,6 +32,7 @@ function Destination_card1(props) {
         </button>
       </Card.Body>
     </Card>
+    </div>
   );
 }
 

@@ -31,7 +31,6 @@ function Featured_collection() {
                 </div>
             </div>
        </div>
-       <br />
        <Travel_Photography/>
     </div>
   )

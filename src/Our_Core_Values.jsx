@@ -1,11 +1,11 @@
   import React from "react";
   import Card from "react-bootstrap/Card";
   import Our_impact from "./Our_impact";
-
-  function Our_Core_Value() {
+  
+  function Our_Core_Values() {
     return (
-        <div>
-        <div className="travel_heading">
+        <div row g-5 mx-5 d-flex justify-content-center bg-white>
+        <div className="text-center mt-5" >
           <h1>Our Core Values</h1>
           <h5>The principles that guide everything we do</h5>
         </div>
@@ -103,7 +103,6 @@
         </div>
         <br />
         <br />
-        <br />
         <div>
           <Our_impact/>
         </div>
@@ -111,4 +110,4 @@
     );
   }
 
-  export default Our_Core_Value;
+  export default Our_Core_Values;

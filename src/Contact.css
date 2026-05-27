@@ -1,0 +1,9 @@
+#Contact-hero {
+    background-image: url(./assets/Contact.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    text-shadow: 2px 2px 4px #aaaaaa;
+}
+

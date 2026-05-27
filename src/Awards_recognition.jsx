@@ -1,12 +1,14 @@
   import React from "react";
   import Card from "react-bootstrap/Card";
-  import './Award_recognition.css';
+import Ready_start_journey from "./Ready_start_journey";
+  
 
   function Awards_recognition() {
     const cardStyle = { width: "100%", maxWidth: "360px", margin: "0 auto",display:'flex' };
 
     return (
-        <div className="mt-4">
+        <div>
+          <div className="mt-4">
         <div className="travel_heading">
           <h1>Awards & Recognition</h1>
           <h5>Industry recognition for our excellence</h5>
@@ -110,6 +112,8 @@
           </div>
         </div>
         <br />
+      </div>
+      <Ready_start_journey/>
       </div>
     );
   }

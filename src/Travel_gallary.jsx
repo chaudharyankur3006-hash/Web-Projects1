@@ -10,6 +10,8 @@ import img8 from './assets/travel_galary8.jpg';
 import Travel_gallary1 from './Travel_gallary1';
 import './Travel_gallary.css';
 import Footer from './Footer';
+import Gallery_image from './Gallery_image';
+import Nav from 'react-bootstrap/Nav';
 
 const Travel_gallary = () => {
     const data=[
@@ -38,15 +40,14 @@ const Travel_gallary = () => {
                     ))
                 }
             </div>
-            <div style={{display:'flex',justifyContent:'center', alignItems:'center'}}>
-                <button id='travel_button' className='d-flex justify-content-center align-items-center gap-2'>
-                    View Full Gallery
+            <div style={{display:'flex',justifyContent:'center', alignItems:'center'}} >
+               <button id='travel_button' className='d-flex justify-content-center align-items-center gap-2 mb-3' >
+
+                       <Nav.Link href="/Gallery">View on Gallery</Nav.Link>
                     <i className="fa-solid fa-arrow-right"></i>
                 </button>
             </div>
         </div>
-        <br />
-        <br />
         <Footer/>
     </div>
   )

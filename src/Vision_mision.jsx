@@ -1,11 +1,11 @@
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import Our_Core_Value from './Our_Core_Values';
+import Our_Core_Values from './Our_Core_Values';
 
 function Vision_mision() {
   return (
     <div>
-    <div className=' d-flex justify-content-center flex-wrap gap-4 mt-5'>
+    <div className=' d-flex justify-content-center flex-wrap gap-4 mt-5 m-3'>
     <Card className="border-0" style={{ width: '500px', boxShadow: '2px 2px 2px 2px #000000' }}>
       <div  className='d-flex align-items-center'>
           <i className="fa-regular fa-heart fa-2x me-2 text-primary"></i>
@@ -34,10 +34,8 @@ function Vision_mision() {
     </Card>
     </div>
     <div>
-      <Our_Core_Value/>
+      <Our_Core_Values/>
     </div>
-    <br />
-    <br />
     </div>
   );
 }

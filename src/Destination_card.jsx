@@ -18,9 +18,9 @@ function Destination_card() {
         {id:6,Name:"Badrinath,North India",details:"Badrinath is a sacred Hindu pilgrimage site in the Himalayas, known for its ancient temple and spiritual significance.",rating:"5.0",Tours:"10 available",img: img6}
     ]    
   return (
-    <div>
-        <div className='bg-light mt-4'>
-             <div className='container1 d-flex justify-content-center gap-5 mt-1 flex-wrap' id='hello' >
+    <div className='border border-1 border-dark'>
+        <div className='bg-light mt-4 '>
+             <div className='container1 d-flex justify-content-center gap-5 mt-1 flex-wrap' >
             {data.map((item) => (
                 <div key={item.id} className='destination-card-col'>
                     <Destination1 data={item}/>
@@ -30,7 +30,9 @@ function Destination_card() {
             <br />
             <br />
         </div>
-        <Popular_regions/>
+       <div>
+         <Popular_regions/>
+       </div>
     </div>
   )   
 }     

@@ -7,7 +7,7 @@ import Destination_card from './Destination_card'
 
 function Search_filter_destination() {
   return (
-    <div className='w-100 container-fluid col-lg-3 ' >
+    <div className='w-100 container-fluid col-lg-3 border border-1 border-dark' >
         <div className='bg-white rounded rounded-2 m-auto mt-4 p-3 d-flex justify-content-center align-items-center gap-3 w-auto'   >
             <div className='container1 d-flex justify-content-center gap-3 mt-1 flex-wrap' >
             <div className=' search_input_wrapper'>
