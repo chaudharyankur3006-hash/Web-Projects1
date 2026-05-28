@@ -20,15 +20,18 @@ function Navbar1() {
             <Nav.Link href="/gallery">Gallery</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
+            
           </Nav>
           <div className='d-flex gap-3'>
             <Button variant="primary">
               <i class="fa-solid fa-briefcase"></i>
                 Book Now
               </Button>
-            <Button variant="light" className="border border-1">
+            <Button variant="light" className="border border-1 d-flex  align-items-center">
                 <i class="fa-solid fa-user"></i>
-                Login
+                <Nav.Link href="/Login">
+                  Login
+                </Nav.Link>
               </Button>
           </div>
         </Navbar.Collapse>

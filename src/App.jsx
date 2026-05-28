@@ -6,7 +6,9 @@ import About from './About'
 import Gallery from './Gallery'
 import Contact from './Contact'
 import Destination from './Destination'
+import Login from './Login'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Sign_up from './Sign_up'
 
 const App = () => {
   return (
@@ -19,6 +21,9 @@ const App = () => {
         <Route path='/contact' element={<Contact/>} />
         <Route path='/tour-packages' element={<Tour_packages />} />
         <Route path='/destination' element={<Destination />} />
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/sign_up' element={<Sign_up/>}/>
+
       </Routes>
     </Router>
   )

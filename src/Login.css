@@ -1,0 +1,135 @@
+
+video {
+  position: absolute;
+  object-fit: cover;
+}
+#login{
+
+}
+
+#login-form{
+  background-color:rgba(255, 255, 255, 0.313);
+}
+
+#input-box{
+  position: absolute;
+  margin:10px ;
+}
+/* MAIN SECTION
+
+#login {
+  position: relative;
+  /* z-index: 1; */
+  /* background-color: rgba(0, 0, 0, 0.45) !important; */
+/* } */
+
+/* CARD */  
+
+/* #login-form {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+} */
+
+/* INPUT FIELD */
+/* 
+.form-control {
+  height: 48px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: black;
+  font-size: 15px;
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 0 0 0.2rem rgba(13, 202, 240, 0.35);
+  border: 1px solid #0dcaf0;
+}
+
+/* LEFT ICON */
+
+/* #input-box {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  z-index: 10;
+  color: #0dcaf0;
+  font-size: 14px;
+} */ */
+
+/* EYE ICON */
+
+/* #eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: white;
+  z-index: 10;
+  transition: 0.3s;
+}
+
+#eye-icon:hover {
+  color: #0dcaf0;
+} */
+
+/* TEXT */
+/* 
+.shadow-white {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+} */
+
+/* BUTTON */
+
+/* .btn-info {
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn-info:hover {
+  transform: scale(1.02);
+} */
+
+/* SOCIAL BUTTON */
+/* 
+.btn-outline-light {
+  border-radius: 10px;
+  color: white;
+} */
+/* 
+.btn-outline-light:hover {
+  background: rgba(255, 255, 255, 0.12);
+} */
+
+/* CHECKBOX */
+
+/* input[type="checkbox"] {
+  accent-color: #0dcaf0;
+} */
+
+/* LINKS */
+/* 
+a:hover {
+  color: #0dcaf0 !important;
+} */
+
+/* RESPONSIVE */
+
+/* @media (max-width: 768px) {
+
+  #login-form {
+    width: 95% !important;
+  }
+
+  video {
+    height: 100% !important;
+  }
+} */ */
