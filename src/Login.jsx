@@ -46,7 +46,7 @@ function Login() {
                   Email Address: 
                 </label>
                 <div>
-                  <i className="fa-solid fa-envelope text-dark p-2" id='input-box' ></i>
+                  <i className="fa-solid fa-envelope text-dark" id='input-box' ></i>
                   <input 
                     type="email" 
                     name="email"
@@ -64,7 +64,7 @@ function Login() {
                   Password: 
                 </label>
                 <div>
-                  <i className="fa-solid fa-lock text-dark p-2" id='input-box' ></i>
+                  <i className="fa-solid fa-lock text-dark " id='input-box' ></i>
                   <input 
                     type={showPassword1 ? "text" : "password"}
                     name="password"
