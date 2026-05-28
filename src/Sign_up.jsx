@@ -50,7 +50,7 @@ function Sign_up() {
         autoPlay
         muted
         loop
-        style={{ height: "1100px", width: "100%" }}
+        style={{ height: "1110px", width: "100%" }}
       ></video>
       <div className="bg-light pt-5 pb-1" style={{ minHeight: "75vh" }} id="login">
         <div className="text-center mb-4 pt-5" style={{position:"relative"}}>

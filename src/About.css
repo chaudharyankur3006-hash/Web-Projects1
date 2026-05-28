@@ -1,40 +1,8 @@
-/* --- आपका पुराना सही कोड --- */
-.About {
-  background-image: url(./assets/Travel_gallary_main.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 400px;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-/* --- नया इनपुट बॉक्स कोड (बिना किसी ब्रैकेट एरर के) --- */
-.input-group-custom {
-  height: 50px;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-
-.input-icon-box {
-  background-color: #ffffff !important;
-  border: none !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  padding-left: 15px !important;
-  padding-right: 10px !important;
-}
-
-.input-field-custom {
-  border: none !important;
-  background-color: #ffffff !important;
-  color: #212529 !important;
-  box-shadow: none !important;
-}
-
-.input-label-custom {
-  color: #ffffff;
-  font-weight: bold;
-  margin-bottom: 8px;
+.About{
+    background-image: url(./assets/Travel_gallary_main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    text-shadow: 2px 2px 4px #000000;
 }
