@@ -64,7 +64,7 @@ function Login() {
                   Password: 
                 </label>
                 <div>
-                  <i className="fa-solid fa-lock text-dark " id='input-box' ></i>
+                  <i className="fa-solid fa-lock text-dark    " id='input-box' ></i>
                   <input 
                     type={showPassword1 ? "text" : "password"}
                     name="password"

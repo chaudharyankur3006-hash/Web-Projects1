@@ -54,7 +54,7 @@ function Sign_up() {
       ></video>
       <div className="bg-light pt-5 pb-1" style={{ minHeight: "75vh" }} id="login">
         <div className="text-center mb-4 pt-5" style={{position:"relative"}}>
-          <i className="fa-solid fa-circle-user fs-1 text-primary"></i>
+          <i class="fa-solid fa-user-plus fs-1 text-primary"></i>
           <h1 className="fw-bold text-white shadow-white ">Create Account</h1>
           <p className="text-white">Join TravelPro and start your journey</p>
         </div>
